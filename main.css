@@ -1,0 +1,75 @@
+:root {
+    --white-color: #fff;
+    --text-color: #333;
+}
+
+body {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+.header {
+    margin-bottom: 20px;    
+}
+
+.title {
+  text-align: center;
+}
+
+.add-work {
+    display: flex;
+    margin: auto;
+    width: 800px;
+}
+
+.add-work_input {
+    flex: 1;
+    background-color: #f1f1f1;
+    border: none;
+    box-shadow: 1px;
+}
+
+.add-work_btn {
+    padding: 10px 16px;
+    color: var(--white-color);
+    background-color: rgb(26, 202, 120);
+    border-radius: 4px;
+    border: none
+}
+
+.box-work {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px rgb(66, 64, 64);
+    background-color: #eee7e7e3;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+.box-work_situation {
+    list-style: none;
+    text-align: center;
+    align-items: flex-start;
+    color: var(--white-color);
+    padding-left: 0;
+    
+}
+
+.situation-completion {
+    background-color: rgb(22, 187, 63);
+    margin-bottom: 4px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    
+}
+
+.situation-delete {
+    background-color: rgb(77, 102, 211);
+    width: 50px;
+    padding: 4px;
+    border-radius: 4px;
+}
